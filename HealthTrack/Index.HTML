@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>HealthTrack</title>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="Images/Favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="BOOTSTRAP">
+            <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="Style2.CSS" title="Estilos2">
+    </head>
+    <body>
+        <script src="bootstrap-4.5.0-dist/jquery-3.5.1.js"></script>
+        <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <nav class="navbar navbar-dark bgcab">
+            <a class="navbar-brand" href="Index.HTML"><img src="Images/iconeVerde.png" alt="Logo HealthTrack" class="logo"></a>
+            <div class="dropdown mgLeftAuto">
+              <button class="btn buttonCab dropdown-toggle dropdown-toggle::after" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="navbar-toggler-icon ajuste1"></span>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Sobre o HealthTrack</a>
+                <a class="dropdown-item" href="#">Backups</a>
+                <a class="dropdown-item" href="#">Dúvidas Frequentes</a>
+                <a class="dropdown-item" href="#">Fale conosco</a>
+                <a class="dropdown-item" href="Login.HTML">Sair</a>
+              </div>
+            </div>
+          </nav>
+          <div class="container-fluid height100">
+            <div class="row height100">
+              <div class="col-sm-2 bgperfil">
+                <div class="row d-inline-flex d-sm-block height30 main1">
+                  <div class="col-sm-12 col-6 text-center colmain1">
+                    <div class="row text-center">
+                      <a href="Perfil.HTML"><img src="Images/caue.png" class="rounded-circle text-center foto"></a>
+                    </div>
+                  </div>
+                </div>
+              <div class="row d-inline-flex pl-5  pl-sm-0  d-sm-block main2">
+                <div class="col-sm-12 col-6 colmain2">
+                  <div class="row">
+                    <div class="col">
+                      <h1 class = "mt-5 text-center nameFont">Cauê Ferreira Follador</h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col mt-3">
+                      <h1 class="perfilFont">Peso: <small class="text-muted">75kg</small></h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col ">
+                      <h1 class="perfilFont">Objetivo:<small> Ganhar massa magra</small></h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h1 class="perfilFont">Último Treino:<small> Corrida</small></h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col ">
+                      <h1 class="perfilFont">Última meta de passos:<small> 2000 passos (atingida)</small></h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-5 pl-5 pr-5 mt-5 col2">
+              <div class="row height50">
+                  <div class="col text-center">
+                      <h1 class="titulo mx-auto text-center font-weight-bold">REGISTRO DE PESO</h1>
+                    <a href="Peso.HTML"><img src="images/GraficoPeso.png" alt="Grafico Peso" class="imagem img-fluid rounded img-thumbnail"></a>
+                  </div>
+                </div>
+                <div class="row height50 text-center pt-3 pb-4">
+                  <div class="col text-center">
+                    <h1 class="titulo mx-auto font-weight-bold" display="block">REGISTRO DE TREINO</h1>
+                    <a href="Treino.html"><img src="images/GraficoExercicio.png" alt="Grafico Treinos" class="imagem img-fluid rounded img-thumbnail"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-5 mt-5 text-center col3">
+                <div class="row">
+                  <div class="col mx-auto dicas text-center font-weight-bold">DICAS PARA GANHAR MASSA MAGRA</div>
+                </div>
+                <div class="row">
+                  <div class="col" style="margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0;">
+                   <!-- Button trigger modal -->
+                    <button type="button" class="infos" data-toggle="modal" data-target="#info1">
+                        <h1 class="tipo text-left ml-2 mt-1">TREINO</h1>
+                        <h2 class="titulo2 text-left ml-2">Ganhando Braço!</h2>
+                        <span class="d-inline-block text-truncate texto" style="max-width: 98%;">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed doloremque ea animi perferendis dignissimos tempora repellendus, aut cumque deserunt ipsa, similique reiciendis. Id sunt hic quasi, magni omnis illo quia.
+                          </span>
+                    </button>
+                    <button type="button" class="infos" data-toggle="modal" data-target="#info2">
+                      <h1 class="tipo2 text-left ml-2 mt-1">DIETA</h1>
+                      <h2 class="titulo2 text-left ml-2 text-truncate">Massa certa para dar massa!</h2>
+                      <span class="d-inline-block text-truncate texto" style="max-width: 98%;">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed doloremque ea animi perferendis dignissimos tempora repellendus, aut cumque deserunt ipsa, similique reiciendis. Id sunt hic quasi, magni omnis illo quia.
+                        </span>
+                  </button>
+                  <button type="button" class="infos" data-toggle="modal" data-target="#info3">
+                    <h1 class="tipo3 text-left ml-2 mt-1">ANÚNCIO</h1>
+                    <h2 class="titulo2 text-left ml-2 text-truncate">A melhor promoção de whey!</h2>
+                    <span class="d-inline-block text-truncate texto" style="max-width: 98%;">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed doloremque ea animi perferendis dignissimos tempora repellendus, aut cumque deserunt ipsa, similique reiciendis. Id sunt hic quasi, magni omnis illo quia.
+                      </span>
+                </button>
+                <button type="button" class="infos" data-toggle="modal" data-target="#info1">
+                  <h1 class="tipo text-left ml-2 mt-1">TREINO</h1>
+                  <h2 class="titulo2 text-left ml-2">Ganhando Braço!</h2>
+                  <span class="d-inline-block text-truncate texto" style="max-width: 98%;">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed doloremque ea animi perferendis dignissimos tempora repellendus, aut cumque deserunt ipsa, similique reiciendis. Id sunt hic quasi, magni omnis illo quia.
+                    </span>
+              </button>
+              <button type="button" class="infos" data-toggle="modal" data-target="#info2">
+                <h1 class="tipo2 text-left ml-2 mt-1">DIETA</h1>
+                <h2 class="titulo2 text-left ml-2 text-truncate">Massa certa para dar massa!</h2>
+                <span class="d-inline-block text-truncate texto" style="max-width: 98%;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed doloremque ea animi perferendis dignissimos tempora repellendus, aut cumque deserunt ipsa, similique reiciendis. Id sunt hic quasi, magni omnis illo quia.
+                  </span>
+            </button>
+            <button type="button" class="infos" data-toggle="modal" data-target="#info3">
+              <h1 class="tipo3 text-left ml-2 mt-1">ANÚNCIO</h1>
+              <h2 class="titulo2 text-left ml-2 text-truncate">A melhor promoção de whey!</h2>
+              <span class="d-inline-block text-truncate texto" style="max-width: 98%;">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed doloremque ea animi perferendis dignissimos tempora repellendus, aut cumque deserunt ipsa, similique reiciendis. Id sunt hic quasi, magni omnis illo quia.
+                </span>
+          </button>
+        <!-- Modal -->
+        <div class="modal fade" id="info1" tabindex="-1" role="dialog" aria-labelledby="ModalInfo1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ModalInfo1">GANHANDO BRAÇO</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body textColor">
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rem fugiat expedita, a quidem obcaecati iste quibusdam culpa ipsam fuga eum debitis inventore, accusamus iusto, reprehenderit labore. Dolore, quia sequi.</p>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="info2" tabindex="-1" role="dialog" aria-labelledby="ModalInfo2" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ModalInfo2">MASSA CERTA PARA DAR MASSA!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body textColor">
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Laudantium rem fugiat expedita, a quidem obcaecati iste quibusdam culpa ipsam fuga eum debitis inventore,
+                    accusamus iusto, reprehenderit labore. Dolore, quia sequi. 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Fugiat, nulla? Velit iusto tenetur quis eaque nam, 
+                    alias sed maiores error qui culpa eum illum sunt dolorem facilis inventore omnis unde.</p>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="info3" tabindex="-1" role="dialog" aria-labelledby="ModalInfo3" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ModalInfo3">A MELHOR PROMOÇÃO DE WHEY!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body textColor">
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Laudantium rem fugiat expedita, a quidem obcaecati iste quibusdam culpa ipsam fuga eum debitis inventore,
+                    accusamus iusto, reprehenderit labore. Dolore, quia sequi. 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Fugiat, nulla? Velit iusto tenetur quis eaque nam, 
+                    alias sed maiores error qui culpa eum illum sunt dolorem facilis inventore omnis unde.</p>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>

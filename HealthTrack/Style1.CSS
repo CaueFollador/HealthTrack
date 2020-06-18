@@ -1,0 +1,125 @@
+body{background-image: url("Images/login.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;   
+}
+.logScreenStyle{
+        font-weight: bold;
+        color: white;
+}
+.inputStyle{
+        background: transparent;
+        width: 100%;
+        border-radius: 15px;
+        border-color: white;
+        border-style: solid;
+        color: white;
+      }
+input:focus{
+        border-radius: 15px;
+        border-color: rgba(82,137,208,0.5);
+        outline: none;
+}
+@media screen{.colHack{
+        min-width: 360px;
+        width: 100%;
+        margin-left: 18% !important;
+        margin-right: 25% !important;
+        color: white;
+        font-weight: bold;
+}}
+@media screen and (min-width: 1200px){.colHack{
+        min-width: 360px;
+        width: 100%;
+        margin-left: 22% !important;
+        margin-right: 25% !important;
+        color: white;
+        font-weight: bold;
+      }}
+@media screen and (max-width: 991px){.colHack{
+        min-width: 360px;
+        width: 100%;
+        margin-left: 14% !important;
+        margin-right: 15% !important;
+        color: white;
+        font-weight: bold;
+      }}
+@media screen and (max-width: 767px){.colHack{
+        min-width: 360px;
+        width: 100%;
+        margin-left: 8% !important;
+        margin-right: 15% !important;
+        color: white;
+        font-weight: bold;
+      }}
+#imagem{
+        justify-content: center;
+        align-items: flex-end;
+        height: 35%;
+        width: 100%;
+}
+      
+.mgLeftAuto{
+         margin-left: auto;
+}
+.buttonStyle{ background: transparent;
+        border-color: white;
+        color: white;
+        border-radius: 15px;
+        border-style: solid;
+        font-size: 14px;
+}
+.buttonStyle:hover{
+        color: white;
+        background-color: rgba(255,255,255,0.5);
+        border-radius: 15px;
+        border-style: solid;
+        border: 2px solid;
+        border-color: rgba(225,245,255,0.5);
+
+
+}
+.buttonStyle:focus{
+        background-color: rgba(255,255,255,0.5);
+        border-color: rgba(20,30,130,0.5);
+        border-style: solid;
+        color: rgba(82,137,208,0.5);
+        outline: none;
+        border-radius: 15px;
+}
+.center{width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;}
+::placeholder{color: white;
+        margin-left: 15px;}
+
+
+.link{ background: transparent;
+        border-color: white;
+        color: white;
+        border-radius: 15px;
+        border-style: solid;
+        font-size: 15px;
+        justify-content: flex-end;
+        margin-left: 40%;
+}
+.link:hover{
+        color: white;
+        background-color: rgba(255,255,255,0.5);
+        border-radius: 15px;
+        border-style: solid;
+        border: 2px solid;
+        border-color: rgba(225,245,255,0.5);
+
+
+}
+.link:focus{
+        background-color: rgba(255,255,255,0.5);
+        border-color: rgba(20,30,130,0.5);
+        border-style: solid;
+        color: rgba(82,137,208,0.5);
+        outline: none;
+        border-radius: 15px;
+}

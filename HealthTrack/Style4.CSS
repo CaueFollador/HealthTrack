@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+body{
+    background-image: url("images/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  .height100{
+    height: 100%;
+  }
+  .height50{
+    height: 50%;
+  }
+  .height30{
+    height: 30%;
+  }
+  .mgLeftAuto{
+    margin-left: auto;
+  }
+  .dropdown-menu{
+    left: -132px;
+  }
+  .dropdown-toggle::after{
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: .0;
+  }
+  .modal-content{
+    min-height: 550px;
+  }
+  .textColor{
+    color: #000;
+  }
+  .logo{
+      max-width: 50%;
+  }
+  .ajuste1{
+      margin-left: 15%;
+  }
+  .bgcab{
+      background-color: rgb(8, 23, 60);
+  }
+  .buttonCab{
+      background-color: rgba(225, 255, 255, 0.1);
+  }
+  .buttonCab:focus{
+      background-color: rgba(255,255,255 0.5);
+  }
+  .buttonCab:hover{
+      background-color: rgba(225, 255, 255, 0.2);
+  }
+.imagem{
+position: static;
+width: 100%;
+height: auto;
+justify-content: center;
+align-items: center;
+box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+text-shadow: rgba(0, 0, 0, 0.1);
+}
+.data{
+    color: rgb(205,205,205);
+    font-size: 89%;
+    font-weight: bold;
+}
+.info{
+    color: rgb(150,150,150);
+    font-size: 150%;
+    padding-left: 25px;
+}
+.info2{
+    color: rgb(100,100,100);
+    font-size: 100%;
+}
+.info3{
+    color: rgb(150,150,150);
+    font-size: 120%;
+    padding-left: 25px;
+}
+.info4{
+    color: rgb(100,100,100);
+    font-size: 70%;
+}
+.bord{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    margin-right: 5px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.grand{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    background-color: rgb(8, 23, 60);
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgba(255,255,255, 0.5)
+}
+.titulo{
+    color: rgb(8, 23, 60);
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.1);
+}

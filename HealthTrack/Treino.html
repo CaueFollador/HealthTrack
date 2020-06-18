@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>HealthTrack</title>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="Images/Favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="BOOTSTRAP">
+            <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="Style3.CSS" title="Estilos3">
+    </head>
+    <body>
+        <script src="bootstrap-4.5.0-dist/jquery-3.5.1.js"></script>
+        <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <nav class="navbar navbar-dark bgcab">
+            <a class="navbar-brand" href="Index.HTML"><img src="Images/iconeVerde.png" alt="Logo HealthTrack" class="logo"></a>
+            <div class="dropdown mgLeftAuto">
+                <button class="btn buttonCab dropdown-toggle dropdown-toggle::after" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="navbar-toggler-icon ajuste1"></span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Sobre o HealthTrack</a>
+                    <a class="dropdown-item" href="#">Backups</a>
+                    <a class="dropdown-item" href="#">Dúvidas Frequentes</a>
+                    <a class="dropdown-item" href="#">Fale conosco</a>
+                    <a class="dropdown-item" href="Login.HTML">Sair</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container bg-light text-center">
+            <div class="row text-center">
+                <div class="col">
+                    <h1 class="titulo">REGISTRO DE TREINO</h1>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <img src="images/GraficoExercicio.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="padding-left: 0px; padding-right: 0px;">
+                    <h1 class="titulo1 ">Últimos Exercícios</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="padding-left: 0px; padding-right: 0px;">
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal1">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CORRIDA</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Corrida</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="infoEx" data-toggle="modal" data-target="#exampleModal">
+                        <h1 class="text-left ml-2 data mt-2">16/04/2020</h1>
+                        <h2 class = "exercicio"><b>EXERCÍCIO REALIZADO:</b> CICLISMO</h2>
+                        <h6 class= "vermais">ver mais +</h6>
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ciclismo</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Data:</b> 09/04/2020</p><br>
+                                    <p><b>Início:</b> 16:21</p><br>
+                                    <p><b>Término:</b> 18:05</p><br>
+                                    <p><b>Tempo de exercício:</b> 01h44</p><br>
+                                    <p><b>Calorias gastas:</b> 3.587 kcal</p><br>
+                                    <p><b>Batimentos cadíacos:</b> 207 BPM</p><br>
+                                    <p><b>Passos dados:</b> 98</p><br>
+                                    <p><b>Local:</b><a href="https://www.google.com/maps/place/Pra%C3%A7a+Giovani+Breda+-+Assun%C3%A7%C3%A3o,+S%C3%A3o+Bernardo+do+Campo+-+SP/data=!4m2!3m1!1s0x94ce415d8587953d:0x7bfb809131748f5?sa=X&ved=2ahUKEwjE876l6PDpAhX-IbkGHRlYDbQQ8gEwAHoECAsQAQ" target="_blank"> Praça Giovani Breda</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

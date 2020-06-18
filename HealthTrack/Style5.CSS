@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.height100{
+    height: 100%;
+}
+.height50{
+    height: 50%;
+}
+.height30{
+    height: 30%;
+}
+.mgLeftAuto{
+    margin-left: auto;
+}
+.dropdown-menu{
+    left: -132px;
+}
+.dropdown-toggle::after{
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: .0;
+}
+.modal-content{
+    min-height: 550px;
+}
+.textColor{
+    color: #000;
+}
+.logo{
+    max-width: 50%;
+}
+.ajuste1{
+    margin-left: 15%;
+}
+.bgcab{
+    background-color: rgb(8, 23, 60);
+}
+.buttonCab{
+    background-color: rgba(225, 255, 255, 0.1);
+}
+.buttonCab:focus{
+    background-color: rgba(255,255,255 0.5);
+}
+.buttonCab:hover{
+    background-color: rgba(225, 255, 255, 0.2);
+}
+.titulo{
+    color: rgb(8, 23, 60);
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.foto{
+    width: 70%;
+    height: 100%;
+    margin-top: 3px;
+    border: 5px solid rgb(38, 54, 98);
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.bgfoto{
+    background-color: rgba(100, 100, 100, 0.3);
+    border-radius: 3px;
+}
+.infos{
+    color: rgb(8, 23, 60);
+    font-weight: bold;
+}
+.cont{
+    color: rgb(140, 140, 140)
+}
+.edit{
+    color: rgb(195,195,195);
+    background-color: rgba(180, 180, 180,0.1);
+    border-radius: 3px;
+}

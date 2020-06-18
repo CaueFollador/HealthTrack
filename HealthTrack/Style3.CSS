@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+body{
+    background-image: url("images/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  .height100{
+    height: 100%;
+  }
+  .height50{
+    height: 50%;
+  }
+  .height30{
+    height: 30%;
+  }
+  .mgLeftAuto{
+    margin-left: auto;
+  }
+  .dropdown-menu{
+    left: -132px;
+  }
+  .dropdown-toggle::after{
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: .0;
+  }
+  .modal-content{
+    min-height: 550px;
+  }
+  .textColor{
+    color: #000;
+  }
+  .logo{
+      max-width: 50%;
+  }
+  .ajuste1{
+      margin-left: 15%;
+  }
+  .bgcab{
+      background-color: rgb(8, 23, 60);
+  }
+  .buttonCab{
+      background-color: rgba(225, 255, 255, 0.1);
+  }
+  .buttonCab:focus{
+      background-color: rgba(255,255,255 0.5);
+  }
+  .buttonCab:hover{
+      background-color: rgba(225, 255, 255, 0.2);
+  }
+  .infoEx{
+      width: 100%;
+      border: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 4px;
+    background-color: rgb(240,240,245)
+}
+  .infoEx:hover{
+    border: 2px solid rgb(212, 225, 235);
+    background-color: rgba(240,242,255);
+  }
+  .infoEx:focus{
+    outline: none;
+  }
+  .data{
+      background-color: rgb(220,220,220);
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 2px;
+      padding-top: 2px;
+      border-radius: 5px;
+      width: 67px;
+      font-size: 70%;
+      color: rgb(255,255,255);
+  }
+  .exercicio{
+        font-size: 90%;
+        color: rgb(110,110,110);
+  }
+  .vermais{
+      font-size: 80%;
+      color: rgb(220,220,220);
+}
+.titulo{
+    color: rgb(8, 23, 60);
+    font-weight: bold;
+}
+.titulo1{
+    background-color: rgb(8, 23, 60);
+    color: #A2B7C5;
+}
